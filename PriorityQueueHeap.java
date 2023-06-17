@@ -63,7 +63,7 @@ public class PriorityQueueHeap<T extends Comparable<T>, P extends Comparable<P>>
 
     public T back() {
         if (heap.isEmpty()) {
-            throw new IllegalStateException("Priority queue is empty");
+            throw new IllegalStateException("La cola de la prioridad est vacia.");
         }
 
         int lastIndex = heap.size() - 1;
